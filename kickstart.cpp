@@ -28,7 +28,7 @@ int main()
 			x = floor((n-1)/2);
 			first = *(s.begin());
 			last = *(--s.end());
-			if(v[x]!=first || v[x]!=last)
+			if(v[x]!=first && v[x]!=last)
 			{
 				cout << "Case "<<"#"<<m<<": NO";
 				goto L;
