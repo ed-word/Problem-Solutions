@@ -12,3 +12,5 @@ Contains Solutions for the following Problems.
 5. Breadth First Search: Shortest Reach https://www.hackerrank.com/challenges/bfsshortreach
 
 6. Predicting House Prices(Multiple Linear Regression) https://www.hackerrank.com/challenges/predicting-house-prices
+
+7. Breaking Sticks https://www.hackerrank.com/contests/world-codesprint-12/challenges/breaking-sticks
