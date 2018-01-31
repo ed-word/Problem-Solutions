@@ -14,3 +14,5 @@ Contains Solutions for the following Problems.
 6. Predicting House Prices(Multiple Linear Regression) https://www.hackerrank.com/challenges/predicting-house-prices
 
 7. Breaking Sticks https://www.hackerrank.com/contests/world-codesprint-12/challenges/breaking-sticks
+
+8. Coin Change https://www.hackerrank.com/challenges/coin-change/problem
