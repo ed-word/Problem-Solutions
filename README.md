@@ -18,3 +18,23 @@ Contains Solutions for the following Problems.
 8. Coin Change https://www.hackerrank.com/challenges/coin-change/problem
 
 9. Learning Languages http://codeforces.com/problemset/problem/277/A
+
+---
+
+And some Data structures and Algorithms:
+
+1. Trie
+
+2. Segment Tree
+
+3. Fenwick Tree
+
+4. Backtracking number of paths in grid
+
+5. DP Coin
+
+6. DP Longest Increasing SUbsequence
+
+7. Fast expo (Fibonacci)
+
+8. Sieve of Eratosthenes
