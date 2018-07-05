@@ -38,3 +38,5 @@ And some Data structures and Algorithms:
 7. Fast expo (Fibonacci)
 
 8. Sieve of Eratosthenes
+
+9. Bitset (Number of Grids)
