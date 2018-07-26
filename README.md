@@ -33,12 +33,10 @@ And some Data structures and Algorithms:
 
 5. DP Coin
 
-6. DP Longest Increasing SUbsequence
+6. DP Longest Bitonic Subsequence (nlogn)
 
 7. Fast expo (Fibonacci)
 
 8. Sieve of Eratosthenes
 
 9. Bitset (Number of Grids)
-
-10. Longest Bitonic Subsequence (nlogn)
