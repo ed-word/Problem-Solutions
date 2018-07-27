@@ -20,8 +20,8 @@ rightseq: 0 2 2 1 1 0
 totalseq: 0 3 4 2 4 0
 Maximum length: 5
 
-Sequence: 1 3 4 2 1
-Sequence: 1 3 4 6 1
+MaxElement: 4  Sequence: 1 3 4 2 1      LeftSeqLen: 2  RightSeqLen: 2
+MaxElement: 6  Sequence: 1 3 4 6 1      LeftSeqLen: 3  RightSeqLen: 1
 */
 
 
@@ -32,7 +32,7 @@ ll binsearch(ll index) {
     // cout << endl;
     // print(x)
 
-    if (x < tail[0]) {
+    if (x <= tail[0]) {
         tail[0] = x;
         return 0;
     } else if (x > tail[length-1]) {
@@ -103,12 +103,12 @@ int main() {
     cout << "Maximum length: " << maximum+1 << endl;
     cout << endl;
 
-    // Result
+    // Result Printing sequence
     ll len_left = 0, len_right = 0, j;
     stack <ll> s;
     loop(i, n) {
         if (totalseq[i] == maximum) {
-            cout << "Sequence: ";
+            cout << "MaxElement: " << arr[i] << "  Sequence: ";
 
             len_left = leftseq[i]-1;
             j = i;
@@ -133,7 +133,8 @@ int main() {
                     len_right--;
                 }
             }
-            cout << endl;
+            cout << "\t" << "LeftSeqLen: " << leftseq[i];
+            cout << "  RightSeqLen: " << rightseq[i] << endl;
         }
     }
 
