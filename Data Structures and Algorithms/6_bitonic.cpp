@@ -87,7 +87,7 @@ int main() {
     // Maximum length of dec subsequence when node i is max
     length = 1;
     rightseq[0] = rightseq[n-1] = 0;
-    tail[0] = arr[0];
+    tail[0] = arr[n-1];
     for (ll i = n-2; i > 0; i--) {
         rightseq[i] = binsearch(i);
     }
